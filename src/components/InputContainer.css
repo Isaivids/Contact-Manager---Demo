@@ -1,0 +1,16 @@
+.container{
+    background-color: aqua;
+}
+.container-input{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+@media  (max-width: 712px) {
+    .container-input{
+        display: grid;
+    }
+}
