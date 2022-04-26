@@ -54,7 +54,7 @@ export default class InputContainer extends Component {
             maxLength="10"
           />
           <input
-            type="tel"
+            type="text"
             name="position"
             placeholder="Work Type"
             onChange={(e) => this.setState({ position: e.target.value })}
