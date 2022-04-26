@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './Contact';
+import './Contact.css'
 
 const ListContacts = (props) => {
 
@@ -14,7 +15,7 @@ const renderContacts = props.contacts.map((contact,index)=>{
 })
 
   return (
-	<div>
+	<div className='ct-main'>
 		{renderContacts}
 	</div>
   )
